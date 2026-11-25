@@ -13,7 +13,7 @@ Creates up to 101 new orders through the actual storefront UI, using Cash on Del
 ## Run
 
 ```sh
-npm install --cache .cache/npm
+CYPRESS_CACHE_FOLDER="$PWD/.cache/Cypress" npm ci --cache .cache/npm
 npm run dry-run
 ORDER_COUNT=1 npm run orders
 npm run orders
