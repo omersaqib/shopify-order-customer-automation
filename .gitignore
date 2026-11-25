@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+cypress.env.json
+reports/
+EXECUTION-STATUS.json
+.DS_Store
+*.log

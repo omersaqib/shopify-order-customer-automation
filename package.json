@@ -1,0 +1,19 @@
+{
+  "name": "shopify-order-customer-automation",
+  "version": "1.0.0",
+  "description": "Shopify automation for order and customer evaluation",
+  "main": "index.js",
+  "scripts": {
+    "dry-run": "node scripts/run.cjs --dry-run",
+    "orders": "node scripts/run.cjs",
+    "orders:headed": "node scripts/run.cjs --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "private": true,
+  "devDependencies": {
+    "cypress": "^16.3.0"
+  }
+}
